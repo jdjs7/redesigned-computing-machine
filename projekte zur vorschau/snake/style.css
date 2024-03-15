@@ -1,0 +1,82 @@
+table,
+tbody,
+tr,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #36454F
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.field {
+  text-align: center;
+  width: 43;
+  height: 43;
+  border: 0;
+}
+
+.segment {
+  background-color: #ff9c38;
+  width: 43px;
+  height: 43px;
+  margin: auto;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+.sidetext {
+  position: absolute;
+  left: 3%;
+  font-size: 120px;
+  color: white;
+
+}
+
+#mytable {
+  margin: auto;
+  border: 0;
+
+
+}
+
+#player {
+  background-color: #ff8138;
+  width: 43px;
+  height: 43px;
+  margin: auto;
+  border-radius: 15px;
+  z-index: 2;
+}
+
+#pointcounter {
+  top: 10%;
+}
+
+#movementkeys {
+  top: 0%;
+  font-size: 50px;
+}
+
+#highscore {
+  top: 20%;
+}
+
+#point {
+  background-color: #85d3ed;
+  width: 43px;
+  height: 43px;
+  margin: auto;
+  border-radius: 45px;
+  z-index: 2;
+}
